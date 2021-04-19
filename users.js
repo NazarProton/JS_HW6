@@ -74,7 +74,7 @@ export default [  {
          eyeColor: 'brown',    
          friends: ['Goldie Gentry', 'Briana Decker'],    
          isActive: true,    
-         blance: 2764,    
+         balance: 2764,    
          skills: ['lorem', 'veniam', 'culpa'],    
          gender: 'female',    age: 39, 
         }

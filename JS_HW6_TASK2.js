@@ -1,12 +1,18 @@
 // Задание 2
 // Получить массив объектов пользователей по
+  
+import users from "./users.js";
 
-import users from "./users";
+const getUsersWithEyeColor = (users, color) =>
+  users.filter(({ eyeColor}) => eyeColor === color);
 
-//  цвету глаз (поле eyeColor).
-const getUsersWithEyeColor = (users, color) => {
-  users.filter(({ eyeColor }) => eyeColor === color);
-};
-  console.log(getUsersWithEyeColor(users, 'blue')); 
-// [объект Moore Hensley, объект Sharlene Bush, 
-// объект Carey Barr]
+// const getInfoAboutUsers = (users, isActive) => {
+//   return users.filter((item) => {
+//     return item.isActive === isActive;
+//   })
+// }
+  console.table(getUsersWithEyeColor(users, true));
+
+
+
+
